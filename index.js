@@ -24,5 +24,5 @@ function removeFirstKitten() {
   return kittens.slice(1)
 }
 function appendKitten(name) {
-  console.log(kittens.concat(${name}))
+  return kittens.concat(name)
 }
