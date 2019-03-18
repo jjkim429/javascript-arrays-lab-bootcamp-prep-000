@@ -25,6 +25,6 @@ function removeFirstKitten() {
 }
 var prekitten = "Arnold"
 var appkitten = "Broom"
-function appendKitten(name) {
+function appendKitten() {
   console.log(kittens.concat(appkitten));
 }
