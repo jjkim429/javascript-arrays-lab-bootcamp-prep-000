@@ -23,3 +23,8 @@ function removeLastKitten() {
 function removeFirstKitten() {
   return kittens.slice(1)
 }
+var prekitten = "Arnold"
+var appkitten = "Broom"
+function appendKitten(name) {
+  console.log(kittens.concat(appkitten));
+}
